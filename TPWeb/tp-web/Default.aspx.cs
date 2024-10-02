@@ -13,5 +13,10 @@ namespace tp_web
         {
 
         }
+
+        protected void btnInicial_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

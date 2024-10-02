@@ -6,24 +6,21 @@
         <div class="row">
             <div class="col-4"></div>
                  <div class="col">
-            <section class="row" aria-labelledby="aspnetTitle">
             <h1 id="aspnetTitle">Sorteo Premios</h1>
-            <h2 =""</h2>
-            <p class=" lead">&nbsp;Ingresé el código de su voucher</p>
-            <asp:TextBox ID="TxtVoucher" runat="server" Width="182px"></asp:TextBox>
+            <p  class=" lead">&nbsp;Ingresé el código de su voucher</p>
+            <asp:TextBox ID="TxtVoucher" runat="server" Width="182px" Height="35px" Text="Ingrese un valor alfanumerico.." Font-Size="Small" Font-Italic="True"></asp:TextBox>
             <br />
-            <asp:Button ID="BtnInicial" runat="server" Text="Siguiente"   BackColor="#0066FF" BorderColor="Black" BorderStyle="Groove" Font-Italic="True" Font-Size="Small" />
-           <br />
+            <br />
+            <asp:Button ID="btnInicial" CssClass="btn btn-primary" onclick="btnInicial_Click"  runat="server" Text="Siguiente"   />
+
                  </div>
             </div><div class="col-4">
+ 
 
-
-            
-
-        </div>   
+       </div>   
 
                  
-        </section>
+      
 
        
     </main>
