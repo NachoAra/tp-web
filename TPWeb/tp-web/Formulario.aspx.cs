@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using dominio;
+using negocio;
 
 namespace tp_web
 {
@@ -11,6 +8,24 @@ namespace tp_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        protected void DNIUsuario_TextChanged(object sender, EventArgs e)
+        {
+            ClienteNegocio clienteNegocio = new ClienteNegocio();
+            int dni = int.Parse(DNIUsuario.Text);
+            Cliente cliente = clienteNegocio.ObtenerDatos(dni);
+
+            if (cliente != null)
+            {
+                NombreUsuario.Text = cliente.Nombre;
+                ApellidoUsuario.Text = cliente.Apellido;
+                EmailUsuario.Text = cliente.Email;
+                DireccionUsuario.Text = cliente.Direccion;
+                CiudadUsuario.Text = cliente.Ciudad;
+                CPUsuario.Text = cliente.CodigoPostal.ToString();
+            }
 
         }
     }

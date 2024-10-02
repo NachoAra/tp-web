@@ -13,7 +13,7 @@
     <div class="row g-2">
         <div>
             <label for="DNIUsuario" class="form-label">DNI</label>
-            <asp:TextBox ID="DNIUsuario" CssClass="form-control" placeholder="Ingrese su número de documento" runat="server" />
+            <asp:TextBox ID="DNIUsuario" CssClass="form-control" placeholder="Ingrese su número de documento" AutoPostBack="true" OnTextChanged="DNIUsuario_TextChanged" runat="server" />
         </div>
         <div>
             <label for="NombreUsuario" class="form-label">Nombre</label> 
