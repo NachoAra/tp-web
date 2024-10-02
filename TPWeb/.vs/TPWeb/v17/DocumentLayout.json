@@ -1,12 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nachito\\source\\repos\\TPWeb\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|c:\\users\\nachito\\desktop\\tp-web\\tpweb\\tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedWidth": 664,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "tp-web\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
+              "RelativeToolTip": "tp-web\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T02:45:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Content\\Site.css",
+              "RelativeDocumentMoniker": "tp-web\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Content\\Site.css",
+              "RelativeToolTip": "tp-web\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-01T16:17:14.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx",
+              "RelativeDocumentMoniker": "tp-web\\Default.aspx",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx",
+              "RelativeToolTip": "tp-web\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T15:56:08.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master",
+              "RelativeDocumentMoniker": "tp-web\\Site.Master",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master",
+              "RelativeToolTip": "tp-web\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T03:15:33.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
         {
           "DockedWidth": 664,
           "SelectedChildIndex": -1,
