@@ -40,7 +40,7 @@
             <asp:TextBox ID="CPUsuario" CssClass="form-control" placeholder="Ingrese su código postal" runat="server" />
         </div>
         <div class="d-grid">
-            <asp:Button Text="Enviar" type="button" ID="BtnEnviarForm" CssClass="btn btn-success" runat="server"/>
+            <asp:Button Text="Enviar" type="button" ID="BtnEnviarForm" OnClick="BtnEnviarForm_Click" CssClass="btn btn-success" runat="server"/>
         </div>
     </div>
 </asp:Content>
