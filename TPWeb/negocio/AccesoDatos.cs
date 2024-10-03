@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +13,9 @@ namespace negocio
         private SqlConnection conexion;
         private SqlCommand comando;
         private SqlDataReader lector;
-        public SqlDataReader Lector 
+        public SqlDataReader Lector
         {
-            get {  return lector; }
+            get { return lector; }
         }
 
         public AccesoDatos()
@@ -41,11 +41,11 @@ namespace negocio
             catch (Exception e)
             {
 
-                throw e; 
+                throw e;
             }
 
         }
-           
+
         public void cerrarConexion()
         {
             if (lector != null)
@@ -54,7 +54,7 @@ namespace negocio
             }
 
             conexion.Close();
-        } 
+        }
 
 
         public void setearParametro(string nombre, object valor)
@@ -64,7 +64,7 @@ namespace negocio
 
         public void ejecutarAccion()
         {
-            comando.Connection=conexion;
+            comando.Connection = conexion;
             try
             {
                 conexion.Open();
@@ -75,6 +75,27 @@ namespace negocio
 
                 throw ex;
             }
+        }
+
+        public void EjecutarAccion()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void Cerrar()
+        {
+            if (lector != null)
+                lector.Close();
+
+            conexion.Close();
         }
     }
 }
