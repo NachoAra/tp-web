@@ -32,7 +32,7 @@ namespace negocio
             return false;
         }
 
-        public Cliente ObtenerDatos(int DNI)
+        public Cliente GetCliente(int DNI)
         {
             Cliente cliente = new Cliente();
             try
@@ -64,6 +64,36 @@ namespace negocio
             }
 
             return cliente; // Si no existe se retorna un client vacio.
+        }
+
+        public bool RegistrarCliente(Cliente cliente)
+        {
+            bool response = false;
+
+            try
+            {
+                AccesoDatos accesoDatos = new AccesoDatos();
+                accesoDatos.setearConsulta("INSERT INTO Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP)VALUES(@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
+                accesoDatos.setearParametro("@Documento", cliente.Documento);
+                accesoDatos.setearParametro("@Nombre", cliente.Nombre);
+                accesoDatos.setearParametro("@Apellido", cliente.Apellido);
+                accesoDatos.setearParametro("@Email", cliente.Email);
+                accesoDatos.setearParametro("@Direccion", cliente.Direccion);
+                accesoDatos.setearParametro("@Ciudad", cliente.Ciudad);
+                accesoDatos.setearParametro("@CP",cliente.CodigoPostal);
+                if (accesoDatos.EjecutarAccion())
+                    response = true; ;
+            }
+            catch (System.Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                accesoDatos.cerrarConexion();
+            }
+
+            return response;
         }
     }
 }
