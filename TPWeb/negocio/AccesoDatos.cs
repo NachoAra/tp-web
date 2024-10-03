@@ -77,18 +77,24 @@ namespace negocio
             }
         }
 
-        public void EjecutarAccion()
+        public bool EjecutarAccion()
         {
+            bool response = false;
+
             comando.Connection = conexion;
             try
             {
                 conexion.Open();
-                comando.ExecuteNonQuery();
+                int filasAfectadas = comando.ExecuteNonQuery();
+
+                if (filasAfectadas > 0)
+                    response = true;
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+            return response;
         }
         public void Cerrar()
         {
