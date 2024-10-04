@@ -108,14 +108,14 @@ namespace negocio
         }
         public bool existeCategoria(string nombre)
         {
-            AccesoDatos datos= new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
             try
             {
                 datos.setearConsulta("SELECT COUNT(*) FROM CATEGORIAS WHERE Descripcion = @nombre");
-                datos.setearParametro("@nombre",nombre);
+                datos.setearParametro("@nombre", nombre);
                 datos.ejecutarConsulta();
 
-                if (datos.Lector.Read()&& (int)datos.Lector[0]>0) //LEE linea x linea y si encuentra otro nombre que coincida suma +1.// mayor a cero = ya estaba en lista
+                if (datos.Lector.Read() && (int)datos.Lector[0] > 0) //LEE linea x linea y si encuentra otro nombre que coincida suma +1.// mayor a cero = ya estaba en lista
                 {
                     return true;
                 }

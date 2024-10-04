@@ -4,3 +4,9 @@ C:\Users\juang\Documents\UTN\2024\PROG 3\TP2\domingo\tp-winform-equipo-18B\tp-wi
 C:\Users\juang\Documents\UTN\2024\PROG 3\TP2\domingo\tp-winform-equipo-18B\tp-winform-equipo-18B\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\juang\Documents\UTN\2024\PROG 3\TP2\domingo\tp-winform-equipo-18B\tp-winform-equipo-18B\dominio\obj\Debug\dominio.dll
 C:\Users\juang\Documents\UTN\2024\PROG 3\TP2\domingo\tp-winform-equipo-18B\tp-winform-equipo-18B\dominio\obj\Debug\dominio.pdb
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\bin\Debug\dominio.dll
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\bin\Debug\dominio.pdb
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\obj\Debug\dominio.dll
+C:\Users\facun\Desktop\tp-web\TPWeb\dominio\obj\Debug\dominio.pdb

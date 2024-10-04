@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,7 +46,7 @@ namespace negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                
+
                 datos.setearConsulta("delete from ARTICULOS where id=@id");
                 datos.setearParametro("@id", id);
                 datos.ejecutarAccion();
@@ -57,9 +58,9 @@ namespace negocio
 
                 throw ex;
             }
-            finally 
+            finally
             {
-                datos.cerrarConexion();    
+                datos.cerrarConexion();
             }
 
 
@@ -76,7 +77,7 @@ namespace negocio
                 datos.setearParametro("@Nombre", articulo.Nombre);
                 datos.setearParametro("@Descripcion", articulo.Descripcion);
                 datos.setearParametro("@IdMarca", articulo.Marca.IDMarca);
-                datos.setearParametro("IdCategoria",articulo.Categoria.IDCategoria);
+                datos.setearParametro("IdCategoria", articulo.Categoria.IDCategoria);
                 datos.setearParametro("@Precio", articulo.Precio);
                 datos.ejecutarAccion();
             }
@@ -112,29 +113,29 @@ namespace negocio
 
                     if (!(datos.Lector["marcaDescripcion"] is DBNull))
                     {
-                        articulo.Marca= new Marca();
+                        articulo.Marca = new Marca();
                         articulo.Marca.Nombre = (string)datos.Lector["marcaDescripcion"];
                         articulo.Marca.IDMarca = (int)datos.Lector["marcaId"];
                     }
 
                     if (!(datos.Lector["categoriaDescripcion"] is DBNull))
-                    {   
-                        articulo.Categoria= new Categoria();
+                    {
+                        articulo.Categoria = new Categoria();
                         articulo.Categoria.Nombre = (string)datos.Lector["categoriaDescripcion"];
                         articulo.Categoria.IDCategoria = (int)datos.Lector["categoriaId"];
                     }
-                        
-                 
-                    
+
+
+
                     articulo.Precio = Convert.ToDecimal(datos.Lector["Precio"]);
 
-                    ImagenNegocio negocioImg= new ImagenNegocio();
+                    ImagenNegocio negocioImg = new ImagenNegocio();
                     articulo.Imagenes = negocioImg.listarPorId(articulo.IDArticulo);
 
 
                     lista.Add(articulo);
 
-               
+
                 }
                 return lista;
 
@@ -154,8 +155,8 @@ namespace negocio
 
         public List<Articulo> filtrar(string campo, string criterio, string filtro)
         {
-            List <Articulo> lista= new List<Articulo>();
-            AccesoDatos datos=new AccesoDatos();
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
             string consulta = "select a.Id,a.Codigo,a.Nombre,a.Descripcion, m.Descripcion as marcaDescripcion,m.Id as marcaId,c.Descripcion as categoriaDescripcion,c.Id as categoriaId ,a.Precio from ARTICULOS as a left join MARCAS AS m on a.IdMarca =m.Id left JOIN CATEGORIAS as c on a.IdCategoria = c.Id where ";
             try
             {
@@ -166,7 +167,7 @@ namespace negocio
                         switch (criterio)
                         {
                             case "Mayor a":
-                                consulta += "a.Id > "+filtro;
+                                consulta += "a.Id > " + filtro;
                                 break;
 
                             case "Menor a":
@@ -333,24 +334,24 @@ namespace negocio
 
 
                 return lista;
-            } 
+            }
             catch (Exception ex)
             {
 
                 throw ex;
             }
         }
-        public bool existeArticulo(string nombre,int idActual = 0)
+        public bool existeArticulo(string nombre, int idActual = 0)
         {
             AccesoDatos datos = new AccesoDatos();
             try
             {
                 datos.setearConsulta("SELECT COUNT(*) FROM ARTICULOS WHERE Nombre = @nombre");
-                datos.setearParametro("@nombre",nombre);
+                datos.setearParametro("@nombre", nombre);
                 datos.setearParametro("@id", idActual);
                 datos.ejecutarConsulta();
 
-                if (datos.Lector.Read()&& (int)datos.Lector[0]>0)
+                if (datos.Lector.Read() && (int)datos.Lector[0] > 0)
                 {
                     return true;
                 }

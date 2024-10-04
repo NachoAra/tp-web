@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|c:\\users\\nachito\\source\\repos\\tp-web\\tpweb\\tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|c:\\users\\facun\\desktop\\tp-web\\tpweb\\negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,55 +29,61 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "tp-web\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
-              "RelativeToolTip": "tp-web\\Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T02:45:02.753Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Site.css",
-              "DocumentMoniker": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Content\\Site.css",
-              "RelativeDocumentMoniker": "tp-web\\Content\\Site.css",
-              "ToolTip": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Content\\Site.css",
-              "RelativeToolTip": "tp-web\\Content\\Site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-01T16:17:14.026Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Default.aspx",
-              "RelativeDocumentMoniker": "tp-web\\Default.aspx",
-              "ToolTip": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Default.aspx*",
-              "RelativeToolTip": "tp-web\\Default.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-01T15:56:08.572Z",
+              "Title": "ClienteNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
+              "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
+              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T01:59:27.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Site.Master",
-              "RelativeDocumentMoniker": "tp-web\\Site.Master",
-              "ToolTip": "C:\\Users\\Nachito\\source\\repos\\tp-web\\TPWeb\\tp-web\\Site.Master",
-              "RelativeToolTip": "tp-web\\Site.Master",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\Cliente.cs",
+              "RelativeToolTip": "dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:47:45.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Formulario.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.cs",
+              "RelativeDocumentMoniker": "tp-web\\Formulario.aspx.cs",
+              "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.cs",
+              "RelativeToolTip": "tp-web\\Formulario.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T23:28:12.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Formulario.aspx",
+              "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx",
+              "RelativeDocumentMoniker": "tp-web\\Formulario.aspx",
+              "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx",
+              "RelativeToolTip": "tp-web\\Formulario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-01T03:15:33.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T23:17:38.299Z"
             }
           ]
         },
@@ -85,6 +91,14 @@
           "DockedWidth": 664,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
