@@ -10,7 +10,7 @@ namespace negocio
             accesoDatos = new AccesoDatos();
         }
 
-        public bool BuscarDNI(int DNI)
+        public bool BuscarDNI(string DNI)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace negocio
             return false;
         }
 
-        public Cliente GetCliente(int DNI)
+        public Cliente GetCliente(string DNI)
         {
             Cliente cliente = new Cliente();
             try
