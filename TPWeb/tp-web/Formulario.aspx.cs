@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Net;
+using System.Web.UI.WebControls;
 using dominio;
+using Microsoft.Ajax.Utilities;
 using negocio;
 
 namespace tp_web
@@ -9,13 +11,13 @@ namespace tp_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void DNIUsuario_TextChanged(object sender, EventArgs e)
         {
             ClienteNegocio clienteNegocio = new ClienteNegocio();
-            int dni = int.Parse(DNIUsuario.Text);
+
+            string dni = DNIUsuario.Text;
             Cliente cliente = clienteNegocio.GetCliente(dni);
 
             try
@@ -34,7 +36,6 @@ namespace tp_web
             {
                 throw ex;
             }
-
         }
 
         protected void BtnEnviarForm_Click(object sender, EventArgs e)
@@ -44,15 +45,20 @@ namespace tp_web
 
             try
             {
-                cliente.Documento = DNIUsuario.Text;
-                cliente.Nombre = NombreUsuario.Text;
-                cliente.Apellido = ApellidoUsuario.Text;
-                cliente.Email = EmailUsuario.Text;
-                cliente.Direccion = DireccionUsuario.Text;
-                cliente.Ciudad = CiudadUsuario.Text;
-                cliente.CodigoPostal = int.Parse(CPUsuario.Text);
-
-                // Validar campos antes de insertar
+                if (Page.IsValid)
+                {
+                    cliente.Documento = DNIUsuario.Text;
+                    cliente.Nombre = NombreUsuario.Text;
+                    cliente.Apellido = ApellidoUsuario.Text;
+                    cliente.Email = EmailUsuario.Text;
+                    cliente.Direccion = DireccionUsuario.Text;
+                    cliente.Ciudad = CiudadUsuario.Text;
+                    cliente.CodigoPostal = int.Parse(CPUsuario.Text);
+                }
+                else
+                {
+                    return;
+                }
 
                 clienteNegocio.RegistrarCliente(cliente);
 
