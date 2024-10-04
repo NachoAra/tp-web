@@ -298,3 +298,7 @@ C:\Users\facun\Desktop\tp-web\TPWeb\tp-web\bin\dominio.dll
 C:\Users\facun\Desktop\tp-web\TPWeb\tp-web\bin\negocio.dll
 C:\Users\facun\Desktop\tp-web\TPWeb\tp-web\bin\dominio.pdb
 C:\Users\facun\Desktop\tp-web\TPWeb\tp-web\bin\negocio.pdb
+C:\Users\Nachito\Desktop\tp-web\TPWeb\tp-web\bin\dominio.dll
+C:\Users\Nachito\Desktop\tp-web\TPWeb\tp-web\bin\negocio.dll
+C:\Users\Nachito\Desktop\tp-web\TPWeb\tp-web\bin\dominio.pdb
+C:\Users\Nachito\Desktop\tp-web\TPWeb\tp-web\bin\negocio.pdb
