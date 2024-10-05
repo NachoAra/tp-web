@@ -42,9 +42,12 @@ namespace tp_web
         {
             ClienteNegocio clienteNegocio = new ClienteNegocio();
             Cliente cliente = new Cliente();
+            string nombre = NombreUsuario.Text;
 
             try
             {
+                Page.Validate();
+
                 if (Page.IsValid)
                 {
                     cliente.Documento = DNIUsuario.Text;
