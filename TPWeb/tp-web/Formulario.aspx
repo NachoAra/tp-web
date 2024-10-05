@@ -2,7 +2,16 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="row g-2">
+    <style>
+        .ocultar {
+            display: none;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(0%, -50%);
+            z-index: 10;
+        }
+    </style>
         <div>
             <label for="DNIUsuario" class="form-label">DNI</label>
             <div class="col-md-6 d-flex align-items-center">
