@@ -77,7 +77,7 @@ namespace negocio
                 accesoDatos.setearParametro("@Email", cliente.Email);
                 accesoDatos.setearParametro("@Direccion", cliente.Direccion);
                 accesoDatos.setearParametro("@Ciudad", cliente.Ciudad);
-                accesoDatos.setearParametro("@CP",cliente.CodigoPostal);
+                accesoDatos.setearParametro("@CP", cliente.CodigoPostal);
                 if (accesoDatos.EjecutarAccion())
                     response = true; ;
             }

@@ -33,13 +33,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorDNI;
 
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// RegularExpressionValidatorDNI control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorDNI;
 
         /// <summary>
         /// NombreUsuario control.
@@ -51,13 +51,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox NombreUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// RequiredFieldValidatorNombre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorNombre;
 
         /// <summary>
         /// ApellidoUsuario control.
@@ -69,13 +69,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox ApellidoUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// RequiredFieldValidatorApellido control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorApellido;
 
         /// <summary>
         /// EmailUsuario control.
@@ -87,13 +87,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox EmailUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator4 control.
+        /// RequiredFieldValidatorEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorEmail;
 
         /// <summary>
         /// DireccionUsuario control.
@@ -105,13 +105,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox DireccionUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator5 control.
+        /// RequiredFieldValidatorDireccion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorDireccion;
 
         /// <summary>
         /// CiudadUsuario control.
@@ -123,13 +123,13 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox CiudadUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator6 control.
+        /// RequiredFieldValidatorCiudad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorCiudad;
 
         /// <summary>
         /// CPUsuario control.
@@ -141,13 +141,22 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.TextBox CPUsuario;
 
         /// <summary>
-        /// RequiredFieldValidator7 control.
+        /// RequiredFieldValidatorCP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorCP;
+
+        /// <summary>
+        /// RegularExpressionValidatorCP control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorCP;
 
         /// <summary>
         /// BtnEnviarForm control.
@@ -157,5 +166,23 @@ namespace tp_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnEnviarForm;
+
+        /// <summary>
+        /// CardRegistroExitoso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CardRegistroExitoso;
+
+        /// <summary>
+        /// TiempoEspera control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.Timer TiempoEspera;
     }
 }
