@@ -18,7 +18,7 @@ namespace tp_web
         {
             try
             {
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
+                ClienteNegocio clienteNegocio = new ClienteNegocio();
 
                 if(clienteNegocio.BuscarDNI(DNIUsuario.Text))
                 {
@@ -31,7 +31,10 @@ namespace tp_web
                     CiudadUsuario.Text = clienteAuxiliar.Ciudad;
                     CPUsuario.Text = clienteAuxiliar.CodigoPostal.ToString();
                 }
-                // Si no existe el cliente continua...
+                else
+                {
+                    LimpiarCampos();
+                }
             }
             catch (Exception ex)
             {
@@ -79,6 +82,16 @@ namespace tp_web
         {
             CardRegistroExitoso.Style["Display"] = "none";
             Response.Redirect("Default.aspx", false);
+        }
+
+        private void LimpiarCampos()
+        {
+            NombreUsuario.Text = null;
+            ApellidoUsuario.Text = null;
+            EmailUsuario.Text = null;
+            DireccionUsuario.Text = null;
+            CiudadUsuario.Text = null;
+            CPUsuario.Text = null;
         }
     }
 }
