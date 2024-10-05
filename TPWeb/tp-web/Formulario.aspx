@@ -56,5 +56,18 @@
         <div class="d-grid">
             <asp:Button Text="Enviar" type="button" ID="BtnEnviarForm" OnClick="BtnEnviarForm_Click" CssClass="btn btn-success" runat="server" />
         </div>
+        <div class="row ocultar" ID="CardRegistroExitoso" runat="server">
+            <div class="card bg-success" style="width: 20rem; height: 8rem">
+                <div class="card-body">
+                    <p class="text-center fs-3 mb-0" style="color: white;">
+                        Registro exitoso!
+                    </p>
+                    <p class="text-center fs-6 mb-0" style="color: white;">
+                        Sera redirigido a la pagina de inicio a continuación...
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+
 </asp:Content>
