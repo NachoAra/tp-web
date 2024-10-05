@@ -60,6 +60,15 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorNombre;
 
         /// <summary>
+        /// RegularExpressionValidatorNombre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorNombre;
+
+        /// <summary>
         /// ApellidoUsuario control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace tp_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorApellido;
+
+        /// <summary>
+        /// RegularExpressionValidatorApellido control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorApellido;
 
         /// <summary>
         /// EmailUsuario control.
@@ -96,6 +114,15 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorEmail;
 
         /// <summary>
+        /// RegularExpressionValidatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorEmail;
+
+        /// <summary>
         /// DireccionUsuario control.
         /// </summary>
         /// <remarks>
@@ -114,6 +141,15 @@ namespace tp_web
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorDireccion;
 
         /// <summary>
+        /// RegularExpressionValidatorDireccion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorDireccion;
+
+        /// <summary>
         /// CiudadUsuario control.
         /// </summary>
         /// <remarks>
@@ -130,6 +166,15 @@ namespace tp_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorCiudad;
+
+        /// <summary>
+        /// RegularExpressionValidatorCiudad control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorCiudad;
 
         /// <summary>
         /// CPUsuario control.
