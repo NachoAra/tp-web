@@ -37,13 +37,11 @@ namespace negocio
             Cliente cliente = new Cliente();
             try
             {
-                if (BuscarDNI(DNI))
-                {
                     accesoDatos.setearConsulta("SELECT * FROM Clientes WHERE Documento = @doc");
                     accesoDatos.setearParametro("@doc", DNI);
                     accesoDatos.ejecutarConsulta();
 
-                    while (accesoDatos.Lector.Read())
+                if(accesoDatos.Lector.Read())
                     {
                         cliente.Nombre = (string)accesoDatos.Lector["Nombre"];
                         cliente.Apellido = (string)accesoDatos.Lector["Apellido"];
@@ -52,7 +50,8 @@ namespace negocio
                         cliente.Ciudad = (string)accesoDatos.Lector["Ciudad"];
                         cliente.CodigoPostal = (int)accesoDatos.Lector["CP"];
                     }
-                }
+
+                return cliente;
             }
             catch (System.Exception ex)
             {
@@ -62,8 +61,6 @@ namespace negocio
             {
                 accesoDatos.cerrarConexion();
             }
-
-            return cliente; // Si no existe se retorna un client vacio.
         }
 
         public bool RegistrarCliente(Cliente cliente)
@@ -80,7 +77,7 @@ namespace negocio
                 accesoDatos.setearParametro("@Email", cliente.Email);
                 accesoDatos.setearParametro("@Direccion", cliente.Direccion);
                 accesoDatos.setearParametro("@Ciudad", cliente.Ciudad);
-                accesoDatos.setearParametro("@CP",cliente.CodigoPostal);
+                accesoDatos.setearParametro("@CP", cliente.CodigoPostal);
                 if (accesoDatos.EjecutarAccion())
                     response = true; ;
             }

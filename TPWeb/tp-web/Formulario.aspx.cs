@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using System.Timers;
 using System.Web.UI.WebControls;
 using dominio;
 using Microsoft.Ajax.Utilities;
@@ -15,22 +16,22 @@ namespace tp_web
 
         protected void DNIUsuario_TextChanged(object sender, EventArgs e)
         {
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
-
-            string dni = DNIUsuario.Text;
-            Cliente cliente = clienteNegocio.GetCliente(dni);
-
             try
             {
-                if (cliente != null)
+            ClienteNegocio clienteNegocio = new ClienteNegocio();
+
+                if(clienteNegocio.BuscarDNI(DNIUsuario.Text))
                 {
-                    NombreUsuario.Text = cliente.Nombre;
-                    ApellidoUsuario.Text = cliente.Apellido;
-                    EmailUsuario.Text = cliente.Email;
-                    DireccionUsuario.Text = cliente.Direccion;
-                    CiudadUsuario.Text = cliente.Ciudad;
-                    CPUsuario.Text = cliente.CodigoPostal.ToString();
+                    Cliente clienteAuxiliar = clienteNegocio.GetCliente(DNIUsuario.Text);
+
+                    NombreUsuario.Text = clienteAuxiliar.Nombre;
+                    ApellidoUsuario.Text = clienteAuxiliar.Apellido;
+                    EmailUsuario.Text = clienteAuxiliar.Email;
+                    DireccionUsuario.Text = clienteAuxiliar.Direccion;
+                    CiudadUsuario.Text = clienteAuxiliar.Ciudad;
+                    CPUsuario.Text = clienteAuxiliar.CodigoPostal.ToString();
                 }
+                // Si no existe el cliente continua...
             }
             catch (Exception ex)
             {
@@ -42,9 +43,12 @@ namespace tp_web
         {
             ClienteNegocio clienteNegocio = new ClienteNegocio();
             Cliente cliente = new Cliente();
+            string nombre = NombreUsuario.Text;
 
             try
             {
+                Page.Validate();
+
                 if (Page.IsValid)
                 {
                     cliente.Documento = DNIUsuario.Text;
@@ -59,15 +63,22 @@ namespace tp_web
                 {
                     return;
                 }
-
-                clienteNegocio.RegistrarCliente(cliente);
-
-                // Codigo que evalue si RegitrarCliente es true o false e indicar mediante un cartel al usuario.
+                if (clienteNegocio.RegistrarCliente(cliente))
+                {
+                    CardRegistroExitoso.Style["Display"] = "block";
+                    TiempoEspera.Enabled = true;
+                }
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+        }
+
+        protected void TiempoEspera_Tick(object sender, EventArgs e)
+        {
+            CardRegistroExitoso.Style["Display"] = "none";
+            Response.Redirect("Default.aspx", false);
         }
     }
 }
