@@ -15,6 +15,24 @@ namespace tp_web
     {
 
         /// <summary>
+        /// CardRegistroExitoso control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CardRegistroExitoso;
+
+        /// <summary>
+        /// TiempoEspera control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.Timer TiempoEspera;
+
+        /// <summary>
         /// DNIUsuario control.
         /// </summary>
         /// <remarks>
@@ -211,23 +229,5 @@ namespace tp_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnEnviarForm;
-
-        /// <summary>
-        /// CardRegistroExitoso control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CardRegistroExitoso;
-
-        /// <summary>
-        /// TiempoEspera control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.Timer TiempoEspera;
     }
 }
