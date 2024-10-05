@@ -59,15 +59,22 @@ namespace tp_web
                 {
                     return;
                 }
-
-                clienteNegocio.RegistrarCliente(cliente);
-
-                // Codigo que evalue si RegitrarCliente es true o false e indicar mediante un cartel al usuario.
+                if (clienteNegocio.RegistrarCliente(cliente))
+                {
+                    CardRegistroExitoso.Style["Display"] = "block";
+                    TiempoEspera.Enabled = true;
+                }
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+        }
+
+        protected void TiempoEspera_Tick(object sender, EventArgs e)
+        {
+            CardRegistroExitoso.Style["Display"] = "none";
+            Response.Redirect("Default.aspx", false);
         }
     }
 }
