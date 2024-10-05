@@ -57,6 +57,7 @@
             <asp:Button Text="Enviar" type="button" ID="BtnEnviarForm" OnClick="BtnEnviarForm_Click" CssClass="btn btn-success" runat="server" />
         </div>
         <div class="row ocultar" ID="CardRegistroExitoso" runat="server">
+            <asp:Timer ID="TiempoEspera" Interval="3000" OnTick="TiempoEspera_Tick" Enabled="false" runat="server"></asp:Timer>
             <div class="card bg-success" style="width: 20rem; height: 8rem">
                 <div class="card-body">
                     <p class="text-center fs-3 mb-0" style="color: white;">
