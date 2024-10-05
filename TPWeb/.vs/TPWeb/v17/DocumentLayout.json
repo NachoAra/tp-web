@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|c:\\users\\facun\\desktop\\tp-web\\tpweb\\negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|c:\\users\\facun\\desktop\\tp-web\\tpweb\\tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|c:\\users\\facun\\desktop\\tp-web\\tpweb\\negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master",
+              "RelativeDocumentMoniker": "tp-web\\Site.Master",
+              "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master",
+              "RelativeToolTip": "tp-web\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T00:41:20.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClienteNegocio.cs",
               "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
               "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
               "RelativeToolTip": "negocio\\ClienteNegocio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T01:59:27.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\dominio\\Cliente.cs",
               "RelativeDocumentMoniker": "dominio\\Cliente.cs",
@@ -59,7 +76,8 @@
               "RelativeToolTip": "dominio\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:47:45.682Z"
+              "WhenOpened": "2024-10-03T21:47:45.682Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,13 +87,14 @@
               "RelativeDocumentMoniker": "tp-web\\Formulario.aspx.cs",
               "ToolTip": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.cs",
               "RelativeToolTip": "tp-web\\Formulario.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T23:28:12.965Z"
+              "WhenOpened": "2024-10-02T23:28:12.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Formulario.aspx",
               "DocumentMoniker": "C:\\Users\\facun\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx",
               "RelativeDocumentMoniker": "tp-web\\Formulario.aspx",
@@ -83,7 +102,8 @@
               "RelativeToolTip": "tp-web\\Formulario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-02T23:17:38.299Z"
+              "WhenOpened": "2024-10-02T23:17:38.299Z",
+              "EditorCaption": ""
             }
           ]
         },
