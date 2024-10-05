@@ -16,13 +16,13 @@ namespace negocio
             accesoDatos = new AccesoDatos();
         }
 
-        public bool existeVoucher(string voucher )//, int FechaCanje = 0
+        public bool existeVoucher(string Voucher )//, int FechaCanje = 0
         {
             AccesoDatos datos = new AccesoDatos();
             try
             {
                 datos.setearConsulta("Select * from Vouchers where CodigoVoucher=@voucher");
-                datos.setearParametro("@voucher", voucher);
+                datos.setearParametro("@voucher", Voucher);
               //  datos.setearParametro("@fechacanje", FechaCanje);
                 datos.ejecutarConsulta();
 
