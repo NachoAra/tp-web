@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Web.UI;
+using dominio;
+using negocio;
 
 namespace tp_web
 {
@@ -11,7 +13,17 @@ namespace tp_web
         }
 
         protected void btnInicial_Click(object sender, EventArgs e)
-        {
+        {   
+            VoucherNegocio Voucher = new VoucherNegocio();
+            bool correcto=Voucher.existeVoucher(TxtVoucher.ToString());
+            if (correcto==true)
+            {
+
+                Response.Redirect("Formulario.aspx");
+
+            }
+
+
 
         }
     }

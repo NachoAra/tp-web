@@ -1,17 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Articulos.aspx.cs" Inherits="tp_web.Articulos" %>
+﻿<%@ Page   Language="C#"  MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Articulos.aspx.cs" Inherits="tp_web.Articulos" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h2>Estamos en etapa de desarrollo,no esperes mucho</h2>
-            </div>
-    </form>
-</body>
-</html>
+  <div>
+  <h2>Estamos en etapa de desarrollo,no esperes mucho</h2>
+  </div>
+
+</asp:Content>
