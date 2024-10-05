@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Specialized;
+using System.Security.Cryptography;
 using System.Web.UI;
 using dominio;
 using negocio;
@@ -21,6 +23,10 @@ namespace tp_web
 
                 Response.Redirect("Formulario.aspx");
 
+            }
+            else
+            {
+               
             }
 
 

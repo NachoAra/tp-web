@@ -21,7 +21,7 @@ namespace negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearConsulta("SELECT COUNT(*) FROM VOUCHER WHERE Voucher = @voucher");
+                datos.setearConsulta("Select * from Vouchers where CodigoVoucher=@voucher");
                 datos.setearParametro("@voucher", voucher);
               //  datos.setearParametro("@fechacanje", FechaCanje);
                 datos.ejecutarConsulta();
