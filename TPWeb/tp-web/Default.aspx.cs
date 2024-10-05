@@ -17,19 +17,19 @@ namespace tp_web
 
         protected void btnInicial_Click(object sender, EventArgs e)
         {
-            string codigoVoucher =TxtVoucher.Text;
+            string codigoVoucher = TxtVoucher.Text;
 
             VoucherNegocio Voucher = new VoucherNegocio();
-            bool correcto = Voucher.existeVoucher(TxtVoucher.ToString());
+            bool correcto = Voucher.existeVoucher(codigoVoucher);
             if (correcto == true)
             {
                 Session.Add("Cvoucher", codigoVoucher);
-                Response.Redirect("Formulario.aspx", false);//redirecciona al formulario solo como prueba
+                Response.Redirect("Articulos.aspx", false);//redirecciona al formulario solo como prueba
 
             }
             else
             {
-
+                Response.Redirect("Formulario.aspx", false);//redirecciona al formulario solo como prueba
             }
 
 
