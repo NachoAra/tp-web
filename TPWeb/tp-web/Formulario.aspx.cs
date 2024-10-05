@@ -15,22 +15,22 @@ namespace tp_web
 
         protected void DNIUsuario_TextChanged(object sender, EventArgs e)
         {
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
-
-            string dni = DNIUsuario.Text;
-            Cliente cliente = clienteNegocio.GetCliente(dni);
-
             try
             {
-                if (cliente != null)
+            ClienteNegocio clienteNegocio = new ClienteNegocio();
+
+                if(clienteNegocio.BuscarDNI(DNIUsuario.Text))
                 {
-                    NombreUsuario.Text = cliente.Nombre;
-                    ApellidoUsuario.Text = cliente.Apellido;
-                    EmailUsuario.Text = cliente.Email;
-                    DireccionUsuario.Text = cliente.Direccion;
-                    CiudadUsuario.Text = cliente.Ciudad;
-                    CPUsuario.Text = cliente.CodigoPostal.ToString();
+                    Cliente clienteAuxiliar = clienteNegocio.GetCliente(DNIUsuario.Text);
+
+                    NombreUsuario.Text = clienteAuxiliar.Nombre;
+                    ApellidoUsuario.Text = clienteAuxiliar.Apellido;
+                    EmailUsuario.Text = clienteAuxiliar.Email;
+                    DireccionUsuario.Text = clienteAuxiliar.Direccion;
+                    CiudadUsuario.Text = clienteAuxiliar.Ciudad;
+                    CPUsuario.Text = clienteAuxiliar.CodigoPostal.ToString();
                 }
+                // Si no existe el cliente continua...
             }
             catch (Exception ex)
             {
