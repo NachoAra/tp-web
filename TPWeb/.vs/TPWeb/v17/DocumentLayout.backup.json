@@ -146,8 +146,7 @@
               "RelativeToolTip": "negocio\\VoucherNegocio.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:36:30.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T02:36:30.611Z"
             },
             {
               "$type": "Document",
@@ -183,8 +182,7 @@
               "RelativeToolTip": "dominio\\Voucher.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:28:08.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T02:28:08.675Z"
             },
             {
               "$type": "Document",
@@ -196,8 +194,7 @@
               "RelativeToolTip": "negocio\\ClienteNegocio.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:25:25.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T02:25:25.748Z"
             },
             {
               "$type": "Document",
@@ -257,8 +254,7 @@
               "RelativeToolTip": "negocio\\AccesoDatos.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:13:09.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T02:13:09.82Z"
             },
             {
               "$type": "Document",
@@ -270,8 +266,7 @@
               "RelativeToolTip": "tp-web\\Default.aspx.designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:10:02.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T02:10:02.222Z"
             },
             {
               "$type": "Document",
@@ -291,9 +286,9 @@
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
               "RelativeDocumentMoniker": "tp-web\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs*",
-              "RelativeToolTip": "tp-web\\Default.aspx.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
+              "RelativeToolTip": "tp-web\\Default.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T01:55:23.324Z",
               "EditorCaption": ""
