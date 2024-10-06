@@ -16,21 +16,24 @@ namespace tp_web
         }
         protected void btnInicial_Click(object sender, EventArgs e)
         {
-            string codigoVoucher = TxtVoucher.Text;
-
-            VoucherNegocio Voucher = new VoucherNegocio();
-            bool correcto = Voucher.existeVoucher(codigoVoucher);
-          
-            if (correcto == true)
+            Page.Validate();
+            if (Page.IsValid)
             {
-                Session.Add("Cvoucher", codigoVoucher);
-                Response.Redirect("Articulos.aspx", false);
+                string codigoVoucher = TxtVoucher.Text;
 
-            }
-            else
-            {
-                Response.Redirect("AvisoVoucher.aspx");
-                TxtVoucher.Text = null;
+                VoucherNegocio Voucher = new VoucherNegocio();
+                bool correcto = Voucher.existeVoucher(codigoVoucher);
+
+                if (correcto == true)
+                {
+                    Session.Add("Cvoucher", codigoVoucher);
+                    Response.Redirect("Articulos.aspx", false);
+                }
+                else
+                {
+                    Response.Redirect("AvisoVoucher.aspx");
+                    TxtVoucher.Text = null;
+                }
             }
         }
     }
