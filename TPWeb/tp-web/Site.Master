@@ -14,7 +14,7 @@
     </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
-    <link href="Imagen/icono.ico" rel="icon"  />
+    <link href="Images/icono.ico" rel="icon"  />
    
 </head>
 <body>
