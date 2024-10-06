@@ -32,6 +32,7 @@ namespace tp_web
             {
                 string script = "<script>alert('El voucher ya esta en uso o no existe');</script>";
                 ClientScript.RegisterStartupScript(this.GetType(), "Advertencia", script);
+                TxtVoucher.Text = null;
             }
 
 

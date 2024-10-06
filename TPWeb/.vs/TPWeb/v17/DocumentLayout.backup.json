@@ -262,11 +262,12 @@
               "Title": "Default.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.designer.cs",
               "RelativeDocumentMoniker": "tp-web\\Default.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.designer.cs",
-              "RelativeToolTip": "tp-web\\Default.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.designer.cs*",
+              "RelativeToolTip": "tp-web\\Default.aspx.designer.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:10:02.222Z"
+              "WhenOpened": "2024-10-05T02:10:02.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
