@@ -15,13 +15,13 @@ namespace tp_web
     {
 
         /// <summary>
-        /// CardRegistroExitoso control.
+        /// CardTiempoEspera control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CardRegistroExitoso;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CardTiempoEspera;
 
         /// <summary>
         /// TiempoEspera control.
