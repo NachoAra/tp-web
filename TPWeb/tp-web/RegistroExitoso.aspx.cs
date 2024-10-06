@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace tp_web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Cliente cliente = (Cliente)Session["Cliente"];
+            NombreCliente.InnerText = cliente.Apellido + ',' + cliente.Nombre;
+            DNIUsuario.InnerText = cliente.Documento;
             string codigoVoucher = Session["Cvoucher"].ToString();
+            CodigoVoucher.InnerText = codigoVoucher;
+            NombreArticulo.InnerText = Session["Articulo"].ToString();
+
         }
 
         protected void BtnVolverInicio_Click(object sender, EventArgs e)

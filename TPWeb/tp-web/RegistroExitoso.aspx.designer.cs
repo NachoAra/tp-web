@@ -15,6 +15,24 @@ namespace tp_web
     {
 
         /// <summary>
+        /// NombreCliente control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl NombreCliente;
+
+        /// <summary>
+        /// DNIUsuario control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl DNIUsuario;
+
+        /// <summary>
         /// CodigoVoucher control.
         /// </summary>
         /// <remarks>
@@ -22,6 +40,15 @@ namespace tp_web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl CodigoVoucher;
+
+        /// <summary>
+        /// NombreArticulo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl NombreArticulo;
 
         /// <summary>
         /// BtnVolverInicio control.
