@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 using dominio;
 using negocio;
 
@@ -14,35 +14,23 @@ namespace tp_web
             if (!IsPostBack)
             {
                 ArticuloNegocio articuloNegocio = new ArticuloNegocio();
-                List<Articulo> articulos = articuloNegocio.listar();
+                List<Articulo> todosLosArticulos = articuloNegocio.listar();
 
-                // carga img para c/u
+                // no + de 3 arts
+                List<Articulo> articulosLimitados = todosLosArticulos.Take(3).ToList();
+
+                //cargar img
                 ImagenNegocio imagenNegocio = new ImagenNegocio();
-                foreach (var articulo in articulos)
+                foreach (var articulo in articulosLimitados)
                 {
                     articulo.Imagenes = imagenNegocio.listarPorId(articulo.IDArticulo);
                 }
-
-                rptArticulos.DataSource = articulos;
+                rptArticulos.DataSource = articulosLimitados;
                 rptArticulos.DataBind();
             }
         }
 
-        protected string GetButtonText(string nombreArticulo)
-        {
-            switch (nombreArticulo.ToLower())
-            {
-                case "mochila notebook":
-                    return "Quiero este!";
-                case "auriculares gamer":
-                    return "No, este!";
-                case "mouse gamer":
-                    return "Mejor este!";
-                default:
-                    return "Seleccionar";
-            }
-        }
-
+        
         protected string GetImageUrl(object dataItem)
         {
             Articulo articulo = dataItem as Articulo;
@@ -50,7 +38,7 @@ namespace tp_web
             {
                 return articulo.Imagenes[0].ImagenUrl;
             }
-            return "~/Content/Images/placeholder.jpg";//vacio
+            return "~/Content/Images/placeholder.jpg"; //imagen vacia
         }
     }
 }
