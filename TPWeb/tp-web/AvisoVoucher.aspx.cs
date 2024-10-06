@@ -7,14 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace tp_web
 {
-    public partial class RegistroExitoso : System.Web.UI.Page
+    public partial class AvisoVoucher : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string codigoVoucher = Session["Cvoucher"].ToString();
+
         }
 
-        protected void BtnVolverInicio_Click(object sender, EventArgs e)
+        protected void BtnVolverInicio2_Click(object sender, EventArgs e)
         {
             Response.Redirect("Default.aspx", false);
         }

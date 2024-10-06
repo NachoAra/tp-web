@@ -14,7 +14,6 @@ namespace tp_web
         {
 
         }
-
         protected void btnInicial_Click(object sender, EventArgs e)
         {
             string codigoVoucher = TxtVoucher.Text;
@@ -30,13 +29,9 @@ namespace tp_web
             }
             else
             {
-                string script = "<script>alert('El voucher ya esta en uso o no existe');</script>";
-                ClientScript.RegisterStartupScript(this.GetType(), "Advertencia", script);
+                Response.Redirect("AvisoVoucher.aspx");
                 TxtVoucher.Text = null;
             }
-
-
-
         }
     }
 }
