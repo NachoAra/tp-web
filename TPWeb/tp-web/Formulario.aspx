@@ -34,7 +34,7 @@
             <h2 class="title-form">Registrate para ganar!</h2>
             <div class="row col-sm-6">
                 <label for="DNIUsuario" class="form-label">DNI</label>
-                <asp:TextBox ID="DNIUsuario" CssClass="form-control" placeholder="Ingrese su número de documento" OnTextChanged="DNIUsuario_TextChanged" AutoPostBack="true" runat="server" />
+                <asp:TextBox ID="DNIUsuario" CssClass="form-control" placeholder="Ingrese su número de documento" OnTextChanged="DNIUsuario_TextChanged" AutoPostBack="false" runat="server" />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorDNI" ControlToValidate="DNIUsuario" CssClass="RequiredMessage" runat="server" ErrorMessage="*El campo DNI es obligatorio." Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidatorDNI" CssClass="RequiredMessage" runat="server" ErrorMessage="*Solo se aceptan valores numéricos." ControlToValidate="DNIUsuario" ValidationExpression="^\d+$" EnableClientScript="true" Display="Dynamic" ForeColor="#CC0000"></asp:RegularExpressionValidator>
             </div>
