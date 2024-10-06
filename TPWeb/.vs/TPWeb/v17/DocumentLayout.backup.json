@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|c:\\users\\nachito\\desktop\\tp-web\\tpweb\\tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\articulos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\articulos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +31,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master",
+              "RelativeDocumentMoniker": "tp-web\\Site.Master",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Site.Master*",
+              "RelativeToolTip": "tp-web\\Site.Master*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T21:17:37.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx",
+              "RelativeDocumentMoniker": "tp-web\\Default.aspx",
+              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx",
+              "RelativeToolTip": "tp-web\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T15:56:05.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Formulario.aspx",
               "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx",
               "RelativeDocumentMoniker": "tp-web\\Formulario.aspx",
@@ -30,8 +63,7 @@
               "RelativeToolTip": "tp-web\\Formulario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T01:58:28.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T01:58:28.634Z"
             },
             {
               "$type": "Document",
@@ -43,8 +75,7 @@
               "RelativeToolTip": "tp-web\\Articulos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T01:44:51.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T01:44:51.465Z"
             }
           ]
         },
