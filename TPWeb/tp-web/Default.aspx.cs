@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Specialized;
+using System.Reflection.Emit;
 using System.Security.Cryptography;
 using System.Web.UI;
 using dominio;
@@ -15,18 +16,20 @@ namespace tp_web
         }
 
         protected void btnInicial_Click(object sender, EventArgs e)
-        {   
-            VoucherNegocio Voucher = new VoucherNegocio();
-            bool correcto=Voucher.existeVoucher(TxtVoucher.ToString());
-            if (correcto==true)
-            {
+        {
+            string codigoVoucher = TxtVoucher.Text;
 
-                Response.Redirect("Formulario.aspx");
+            VoucherNegocio Voucher = new VoucherNegocio();
+            bool correcto = Voucher.existeVoucher(codigoVoucher);
+            if (correcto == true)
+            {
+                Session.Add("Cvoucher", codigoVoucher);
+                Response.Redirect("Articulos.aspx", false);//redirecciona al formulario solo como prueba
 
             }
             else
             {
-               
+                Response.Redirect("Formulario.aspx", false);//redirecciona al formulario solo como prueba
             }
 
 
