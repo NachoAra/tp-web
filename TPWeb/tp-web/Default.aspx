@@ -1,7 +1,21 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="tp_web._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<style>
+        /* Agrega el estilo de fondo aquí */
+        body {
+            background-image: url('Images/fondo.jpg'); /* Cambia esta URL a la de tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+            background-position: center; /* Centra la imagen en la pantalla */
+            margin: 0; /* Elimina el margen predeterminado del body */
+            padding: 0; /* Elimina el padding predeterminado del body */
+            height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+        }
 
+       
+    </style>
     <main>
         <div>
 
@@ -11,8 +25,8 @@
         <div class="row">
             <div class="col-4"></div>
             <div class="col">
-                <h1 id="aspnetTitle">Sorteo Premios</h1>
-                <p class=" lead">&nbsp;Ingresé el código de su voucher</p>
+                <h1 id="aspnetTitle"  style=color:white >Sorteo Premios</h1>
+                <p style=color:black class=" lead">&nbsp;Ingresé el código de su voucher</p>
                 <asp:TextBox ID="TxtVoucher" runat="server" autocomplete="off" Width="182px" Height="35px" placeholder="Ingrese un valor alfanumerico.." Font-Size="Small" Font-Italic="True"></asp:TextBox>
                 <br />
                 <br />
