@@ -16,17 +16,17 @@ namespace negocio
             accesoDatos = new AccesoDatos();
         }
 
-        public bool existeVoucher(string Voucher )//, int FechaCanje = 0
+        public bool existeVoucher(string Voucher) 
         {
            
             try
             {
-                accesoDatos.setearConsulta("Select * from Vouchers where CodigoVoucher=@voucher");
+                accesoDatos.setearConsulta("Select * from Vouchers where CodigoVoucher=@voucher and FechaCanje is null ");
                 accesoDatos.setearParametro("@voucher", Voucher);
-                //  datos.setearParametro("@fechacanje", FechaCanje);
+                
                 accesoDatos.ejecutarConsulta();
 
-                if (accesoDatos.Lector.Read())//&& (datetime)datos.Lector[0] > 0
+                if (accesoDatos.Lector.Read())
                 {
                     return true;
                 }
@@ -41,6 +41,7 @@ namespace negocio
                 accesoDatos.cerrarConexion();
             }
         }
+
     }
 }
 

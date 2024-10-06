@@ -21,15 +21,17 @@ namespace tp_web
 
             VoucherNegocio Voucher = new VoucherNegocio();
             bool correcto = Voucher.existeVoucher(codigoVoucher);
+          
             if (correcto == true)
             {
                 Session.Add("Cvoucher", codigoVoucher);
-                Response.Redirect("Articulos.aspx", false);//redirecciona al formulario solo como prueba
+                Response.Redirect("Articulos.aspx", false);
 
             }
             else
             {
-                Response.Redirect("Formulario.aspx", false);//redirecciona al formulario solo como prueba
+                string script = "<script>alert('El voucher ya esta en uso o no existe');</script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "Advertencia", script);
             }
 
 
