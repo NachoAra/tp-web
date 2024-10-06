@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Articulos.aspx" />
+    <Content Include="AvisoVoucher.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -192,6 +193,13 @@
     </Compile>
     <Compile Include="Articulos.aspx.designer.cs">
       <DependentUpon>Articulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AvisoVoucher.aspx.cs">
+      <DependentUpon>AvisoVoucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AvisoVoucher.aspx.designer.cs">
+      <DependentUpon>AvisoVoucher.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
