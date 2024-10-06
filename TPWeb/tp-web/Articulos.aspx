@@ -12,15 +12,16 @@
             margin-bottom: 20px;
         }
         .articulos-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            display: flex;
+            justify-content: center;
             gap: 20px;
         }
         .articulo-card {
+            width: 300px;
             border: 1px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 5px 5px 10px #888888;
         }
         .articulo-imagen {
             width: 100%;
@@ -38,17 +39,20 @@
             color: #666;
             margin-bottom: 15px;
         }
-        .articulo-precio {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
         .articulo-boton {
-            display: inline-block;
-            padding: 8px 16px;
+            display: block;
+            width: 100%;
+            padding: 10px;
             background-color: #007bff;
             color: white;
+            text-align: center;
             text-decoration: none;
+            border: none;
             border-radius: 4px;
+            cursor: pointer;
+        }
+        .articulo-boton:hover {
+            background-color: #0056b3;
         }
     </style>
 
@@ -58,12 +62,11 @@
             <asp:Repeater ID="rptArticulos" runat="server">
                 <ItemTemplate>
                     <div class="articulo-card">
-                        <img src='<%# GetImageUrl(Container.DataItem) %>' alt='<%# Eval("Nombre") %>' class="articulo-imagen">
+                        <img class="articulo-imagen" src='<%# GetImageUrl(Container.DataItem) %>' alt="Imagen Artículo" />
                         <div class="articulo-contenido">
-                            <h2 class="articulo-titulo"><%# Eval("Nombre") %></h2>
+                            <h3 class="articulo-titulo"><%# Eval("Nombre") %></h3>
                             <p class="articulo-descripcion"><%# Eval("Descripcion") %></p>
-                            <p class="articulo-precio">$<%# Eval("Precio", "{0:N2}") %></p>
-                            <a href="#" class="articulo-boton"><%# GetButtonText(Eval("Nombre").ToString()) %></a>
+                            <button class="articulo-boton">Seleccionar</button>
                         </div>
                     </div>
                 </ItemTemplate>
