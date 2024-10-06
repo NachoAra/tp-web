@@ -18,7 +18,6 @@ namespace negocio
 
         public bool existeVoucher(string Voucher )//, int FechaCanje = 0
         {
-           
             try
             {
                 accesoDatos.setearConsulta("Select * from Vouchers where CodigoVoucher=@voucher");
@@ -39,6 +38,31 @@ namespace negocio
             finally
             {
                 accesoDatos.cerrarConexion();
+            }
+        }
+
+        public bool Asociar(Cliente cliente, string CodigoVoucher, int codigoArticulo )// Tambien hay que asociar el articulo.
+        {
+            try
+            {
+                accesoDatos.setearConsulta("UPDATE Vouchers SET IdCliente = @IDCliente, FechaCanje = @Fecha , IdArticulo = @IDArticulo WHERE CodigoVoucher = @CodigoVoucher");
+                accesoDatos.setearParametro("@IDCliente", cliente.IDCliente);
+                accesoDatos.setearParametro("@Fecha", DateTime.Now);
+                accesoDatos.setearParametro("@IDArticulo", codigoArticulo);
+                accesoDatos.setearParametro("@CodigoVoucher", CodigoVoucher);
+                
+                if(accesoDatos.EjecutarAccion())
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                accesoDatos.Cerrar();
             }
         }
     }
