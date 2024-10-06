@@ -10,7 +10,7 @@ namespace negocio
             accesoDatos = new AccesoDatos();
         }
 
-        public bool BuscarDNI(string DNI)
+        public bool ExisteDNI(string DNI)
         {
             try
             {
@@ -43,6 +43,8 @@ namespace negocio
 
                 if(accesoDatos.Lector.Read())
                     {
+                        cliente.Direccion = DNI;
+                        cliente.IDCliente = (int)accesoDatos.Lector["Id"];
                         cliente.Nombre = (string)accesoDatos.Lector["Nombre"];
                         cliente.Apellido = (string)accesoDatos.Lector["Apellido"];
                         cliente.Email = (string)accesoDatos.Lector["Email"];
@@ -89,7 +91,6 @@ namespace negocio
             {
                 accesoDatos.cerrarConexion();
             }
-
             return response;
         }
     }
