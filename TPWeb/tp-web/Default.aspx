@@ -11,8 +11,19 @@
                 <asp:TextBox ID="TxtVoucher" runat="server" autocomplete="off" Width="182px" Height="35px" placeholder="Ingrese un valor alfanumerico.." Font-Size="Small" Font-Italic="True"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Button ID="btnInicial" CssClass="btn btn-primary" OnClick="btnInicial_Click" runat="server" Text="Siguiente" />
+                <asp:Button ID="btnInicial" CssClass="btn btn-primary" OnClick="btnInicial_Click" OnClientClick="return validarAlfanumerico()" runat="server" Text="Siguiente" />
+                <script>
+                    function validarAlfanumerico() {
+                        var valor = document.getElementById('<%= TxtVoucher.ClientID %>').value;
+                        var regex = /^[a-zA-Z0-9]+$/; // Expresión regular para alfanumérico
 
+                        if (!regex.test(valor)) {
+                            alert("Por favor, ingrese solo valores alfanuméricos (letras y números).");
+                            return false; // Detiene el envío del formulario
+                        }
+                        return true; // Permite el envío del formulario si es válido
+                    }
+</script>
             </div>
         </div>
         <div class="col-4">
