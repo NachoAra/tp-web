@@ -43,7 +43,7 @@ namespace negocio
 
                 if(accesoDatos.Lector.Read())
                     {
-                        cliente.Direccion = DNI;
+                        cliente.Documento = DNI;
                         cliente.IDCliente = (int)accesoDatos.Lector["Id"];
                         cliente.Nombre = (string)accesoDatos.Lector["Nombre"];
                         cliente.Apellido = (string)accesoDatos.Lector["Apellido"];
