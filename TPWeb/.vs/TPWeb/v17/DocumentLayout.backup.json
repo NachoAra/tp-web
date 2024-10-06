@@ -3,80 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|c:\\users\\nachito\\desktop\\tp-web\\tpweb\\tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\formulario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\formulario.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\articulos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\articulos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A01243C-5855-4E11-8DCF-C8BB1B795D1D}|negocio\\negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{257661C4-9836-424A-BDE0-5685B3739085}|dominio\\dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E142CFD-280A-4047-9CE8-BD6036E02136}|tp-web\\tp-web.csproj|solutionrelative:tp-web\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,192 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 664,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MarcaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\MarcaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\MarcaNegocio.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\MarcaNegocio.cs",
-              "RelativeToolTip": "negocio\\MarcaNegocio.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T04:20:31.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Formulario.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.cs",
-              "RelativeDocumentMoniker": "tp-web\\Formulario.aspx.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.cs",
-              "RelativeToolTip": "tp-web\\Formulario.aspx.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T04:11:09.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Formulario.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.designer.cs",
-              "RelativeDocumentMoniker": "tp-web\\Formulario.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx.designer.cs",
-              "RelativeToolTip": "tp-web\\Formulario.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T04:11:07.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CategoriaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\CategoriaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\CategoriaNegocio.cs",
-              "RelativeToolTip": "negocio\\CategoriaNegocio.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:53:56.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VoucherNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\VoucherNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\VoucherNegocio.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\VoucherNegocio.cs",
-              "RelativeToolTip": "negocio\\VoucherNegocio.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:36:30.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Marca.cs",
-              "RelativeDocumentMoniker": "dominio\\Marca.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Marca.cs",
-              "RelativeToolTip": "dominio\\Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:19:04.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Categoria.cs",
-              "RelativeToolTip": "dominio\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:28:22.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Voucher.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Voucher.cs",
-              "RelativeDocumentMoniker": "dominio\\Voucher.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Voucher.cs",
-              "RelativeToolTip": "dominio\\Voucher.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:28:08.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\ClienteNegocio.cs",
-              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACcAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:25:25.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Imagen.cs",
-              "RelativeToolTip": "dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:14:40.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Cliente.cs",
-              "RelativeDocumentMoniker": "dominio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Cliente.cs",
-              "RelativeToolTip": "dominio\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:14:34.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\dominio\\Articulo.cs",
-              "RelativeToolTip": "dominio\\Articulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:14:22.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAAAHEBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:13:26.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:13:09.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Default.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.designer.cs",
-              "RelativeDocumentMoniker": "tp-web\\Default.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.designer.cs",
-              "RelativeToolTip": "tp-web\\Default.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:10:02.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Formulario.aspx",
               "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Formulario.aspx",
               "RelativeDocumentMoniker": "tp-web\\Formulario.aspx",
@@ -279,37 +30,12 @@
               "RelativeToolTip": "tp-web\\Formulario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T01:58:28.634Z"
+              "WhenOpened": "2024-10-05T01:58:28.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "tp-web\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx.cs",
-              "RelativeToolTip": "tp-web\\Default.aspx.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T01:55:23.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx",
-              "RelativeDocumentMoniker": "tp-web\\Default.aspx",
-              "ToolTip": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Default.aspx*",
-              "RelativeToolTip": "tp-web\\Default.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T01:49:57.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Articulos.aspx",
               "DocumentMoniker": "C:\\Users\\Nachito\\Desktop\\tp-web\\TPWeb\\tp-web\\Articulos.aspx",
               "RelativeDocumentMoniker": "tp-web\\Articulos.aspx",
@@ -317,7 +43,8 @@
               "RelativeToolTip": "tp-web\\Articulos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T01:44:51.465Z"
+              "WhenOpened": "2024-10-05T01:44:51.465Z",
+              "EditorCaption": ""
             }
           ]
         },
