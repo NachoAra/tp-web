@@ -20,7 +20,7 @@ namespace tp_web
             {
                 ClienteNegocio clienteNegocio = new ClienteNegocio();
 
-                if(clienteNegocio.BuscarDNI(DNIUsuario.Text))
+                if(clienteNegocio.ExisteDNI(DNIUsuario.Text))
                 {
                     Cliente clienteAuxiliar = clienteNegocio.GetCliente(DNIUsuario.Text);
 
