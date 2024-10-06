@@ -10,26 +10,28 @@ namespace tp_web
 {
     public partial class Formulario : System.Web.UI.Page
     {
+        private ClienteNegocio clienteNegocio;
+        private Cliente cliente;
         protected void Page_Load(object sender, EventArgs e)
         {
+            clienteNegocio = new ClienteNegocio();
+            cliente = new Cliente();
         }
 
         protected void DNIUsuario_TextChanged(object sender, EventArgs e)
         {
             try
             {
-                ClienteNegocio clienteNegocio = new ClienteNegocio();
-
                 if(clienteNegocio.ExisteDNI(DNIUsuario.Text))
                 {
-                    Cliente clienteAuxiliar = clienteNegocio.GetCliente(DNIUsuario.Text);
+                    cliente = clienteNegocio.GetCliente(DNIUsuario.Text);
 
-                    NombreUsuario.Text = clienteAuxiliar.Nombre;
-                    ApellidoUsuario.Text = clienteAuxiliar.Apellido;
-                    EmailUsuario.Text = clienteAuxiliar.Email;
-                    DireccionUsuario.Text = clienteAuxiliar.Direccion;
-                    CiudadUsuario.Text = clienteAuxiliar.Ciudad;
-                    CPUsuario.Text = clienteAuxiliar.CodigoPostal.ToString();
+                    NombreUsuario.Text = cliente.Nombre;
+                    ApellidoUsuario.Text = cliente.Apellido;
+                    EmailUsuario.Text = cliente.Email;
+                    DireccionUsuario.Text = cliente.Direccion;
+                    CiudadUsuario.Text = cliente.Ciudad;
+                    CPUsuario.Text = cliente.CodigoPostal.ToString();
                 }
                 else
                 {
@@ -44,15 +46,12 @@ namespace tp_web
 
         protected void BtnEnviarForm_Click(object sender, EventArgs e)
         {
-            ClienteNegocio clienteNegocio = new ClienteNegocio();
-            Cliente cliente = new Cliente();
-            string nombre = NombreUsuario.Text;
-
+            string codigoVoucher = Session["Cvoucher"].ToString();
             try
             {
                 Page.Validate();
 
-                if (Page.IsValid)
+                if (Page.IsValid && !clienteNegocio.ExisteDNI(DNIUsuario.Text))
                 {
                     cliente.Documento = DNIUsuario.Text;
                     cliente.Nombre = NombreUsuario.Text;
@@ -61,27 +60,32 @@ namespace tp_web
                     cliente.Direccion = DireccionUsuario.Text;
                     cliente.Ciudad = CiudadUsuario.Text;
                     cliente.CodigoPostal = int.Parse(CPUsuario.Text);
+
+                    clienteNegocio.RegistrarCliente(cliente);
+                    cliente.IDCliente = clienteNegocio.GetCliente(cliente.Documento).IDCliente;
                 }
                 else
                 {
-                    return;
+                    cliente = clienteNegocio.GetCliente(DNIUsuario.Text);
                 }
-                if (clienteNegocio.RegistrarCliente(cliente))
+
+                VoucherNegocio voucher = new VoucherNegocio();
+                if(voucher.Asociar(cliente, codigoVoucher, 1))
                 {
-                    CardRegistroExitoso.Style["Display"] = "block";
+                    CardTiempoEspera.Style["Display"] = "block";
                     TiempoEspera.Enabled = true;
                 }
+                
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-
         protected void TiempoEspera_Tick(object sender, EventArgs e)
         {
-            CardRegistroExitoso.Style["Display"] = "none";
-            Response.Redirect("Default.aspx", false);
+            CardTiempoEspera.Style["Display"] = "none";
+            Response.Redirect("RegistroExitoso.aspx", false);
         }
 
         private void LimpiarCampos()
