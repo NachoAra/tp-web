@@ -1,4 +1,5 @@
 ﻿using dominio;
+using negocio;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +18,32 @@ namespace tp_web
             DNIUsuario.InnerText = cliente.Documento;
             string codigoVoucher = Session["Cvoucher"].ToString();
             CodigoVoucher.InnerText = codigoVoucher;
-            NombreArticulo.InnerText = Session["Articulo"].ToString();
 
+            if (Session["ArticuloSeleccionadoId"] != null)
+            {
+                int articuloId = (int)Session["ArticuloSeleccionadoId"];
+
+                ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+                List<Articulo> articulos = articuloNegocio.listar();
+                Articulo articuloSeleccionado = articulos.FirstOrDefault(a => a.IDArticulo == articuloId);
+
+                if (articuloSeleccionado != null)
+                {
+                    NombreArticulo.InnerText = articuloSeleccionado.Nombre;
+                    //DescripcionArticulo.InnerText = articuloSeleccionado.Descripcion;
+                }
+                else
+                {
+                    NombreArticulo.InnerText = "Artículo no encontrado";
+                }
+            }
+            else
+            {
+                NombreArticulo.InnerText = "No se seleccionó ningún artículo";
+            }
         }
+
+    
 
         protected void BtnVolverInicio_Click(object sender, EventArgs e)
         {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 using dominio;
 using negocio;
 
@@ -30,7 +31,7 @@ namespace tp_web
             }
         }
 
-        
+
         protected string GetImageUrl(object dataItem)
         {
             Articulo articulo = dataItem as Articulo;
@@ -40,5 +41,17 @@ namespace tp_web
             }
             return "~/Content/Images/placeholder.jpg"; //imagen vacia
         }
+        protected void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            int articuloId = Convert.ToInt32(btn.CommandArgument);
+
+            // Guardar el ID del artículo en la Session
+            Session["ArticuloSeleccionadoId"] = articuloId;
+
+            // Redirigir al formulario
+            Response.Redirect("Formulario.aspx", false);
+        }
+
     }
 }

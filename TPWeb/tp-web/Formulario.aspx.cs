@@ -22,7 +22,7 @@ namespace tp_web
         {
             try
             {
-                if(clienteNegocio.ExisteDNI(DNIUsuario.Text))
+                if (clienteNegocio.ExisteDNI(DNIUsuario.Text))
                 {
                     cliente = clienteNegocio.GetCliente(DNIUsuario.Text);
 
@@ -68,14 +68,14 @@ namespace tp_web
                 {
                     cliente = clienteNegocio.GetCliente(DNIUsuario.Text);
                 }
-
+                //edit en el 1
                 VoucherNegocio voucher = new VoucherNegocio();
-                if(voucher.Asociar(cliente, codigoVoucher, 1))
+                if (voucher.Asociar(cliente, codigoVoucher, (int)Session["ArticuloSeleccionadoId"]))
                 {
                     CardTiempoEspera.Style["Display"] = "block";
                     TiempoEspera.Enabled = true;
                 }
-                
+
             }
             catch (Exception ex)
             {
