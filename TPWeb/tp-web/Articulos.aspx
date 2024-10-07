@@ -5,6 +5,8 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
+        }
+        .container_card{
             padding: 20px;
         }
         .titulo {
@@ -56,7 +58,7 @@
         }
     </style>
 
-    <div class="container">
+    <div class="container container_cards">
         <h1 class="titulo">Elegí tu premio</h1>
         <div class="articulos-grid">
             <asp:Repeater ID="rptArticulos" runat="server">
