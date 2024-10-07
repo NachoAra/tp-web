@@ -66,7 +66,10 @@
                         <div class="articulo-contenido">
                             <h3 class="articulo-titulo"><%# Eval("Nombre") %></h3>
                             <p class="articulo-descripcion"><%# Eval("Descripcion") %></p>
-                            <button class="articulo-boton">Seleccionar</button>
+                            <asp:Button ID="btnSeleccionar" runat="server" Text="Seleccionar" 
+                                CssClass="articulo-boton" 
+                                CommandArgument='<%# Eval("IDArticulo") %>' 
+                                OnClick="btnSeleccionar_Click" />
                         </div>
                     </div>
                 </ItemTemplate>
