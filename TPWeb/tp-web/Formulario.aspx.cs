@@ -76,6 +76,7 @@ namespace tp_web
                     TiempoEspera.Enabled = true;
                 }
 
+                Session.Add("Cliente", cliente);
             }
             catch (Exception ex)
             {
