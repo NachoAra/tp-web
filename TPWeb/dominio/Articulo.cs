@@ -15,8 +15,5 @@ namespace dominio
         public Categoria Categoria { get; set; }
         public List<Imagen> Imagenes;
         public decimal Precio { get; set; }
-
-
-
     }
 }

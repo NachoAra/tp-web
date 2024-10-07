@@ -9,7 +9,6 @@
             padding: 2px 0;
             margin: 0.375rem 0 0 0;
         }
-
         .RequiredMessage {
             font-style: italic;
             padding: 0;
@@ -49,7 +48,6 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorApellido" ControlToValidate="ApellidoUsuario" CssClass="RequiredMessage" runat="server" ErrorMessage="*El campo Apellido es obligatorio." Display="Dynamic" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                 <asp:RegularExpressionValidator ID="RegularExpressionValidatorApellido" CssClass="RequiredMessage" runat="server" ErrorMessage="*Solo se aceptan letras." ControlToValidate="ApellidoUsuario" ValidationExpression="[a-zA-Z ]{2,254}" EnableClientScript="true" Display="Dynamic" ForeColor="#CC0000"></asp:RegularExpressionValidator>
             </div>
-
             <div class="row col-sm-6">
                 <label for="EmailUsuario" class="form-label">Email</label>
                 <asp:TextBox type="text" ID="EmailUsuario" CssClass="form-control" placeholder="ejemplo@proveedor.com" runat="server" />

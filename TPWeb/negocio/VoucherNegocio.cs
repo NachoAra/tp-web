@@ -10,12 +10,10 @@ namespace negocio
     public class VoucherNegocio
     {
         private AccesoDatos accesoDatos;
-
         public VoucherNegocio()
         {
             accesoDatos = new AccesoDatos();
         }
-
         public bool existeVoucher(string Voucher) 
         {
             try

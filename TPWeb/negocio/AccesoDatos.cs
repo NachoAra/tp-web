@@ -17,7 +17,6 @@ namespace negocio
         {
             get { return lector; }
         }
-
         public AccesoDatos()
         {
             conexion = new SqlConnection("server=.\\SQLEXPRESS; database=PROMOS_DB; integrated security = true");
@@ -45,7 +44,6 @@ namespace negocio
             }
 
         }
-
         public void cerrarConexion()
         {
             if (lector != null)
@@ -56,27 +54,10 @@ namespace negocio
             conexion.Close();
         }
 
-
         public void setearParametro(string nombre, object valor)
         {
             comando.Parameters.AddWithValue(nombre, valor);
         }
-
-        public void ejecutarAccion()
-        {
-            comando.Connection = conexion;
-            try
-            {
-                conexion.Open();
-                comando.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }
-
         public bool EjecutarAccion()
         {
             bool response = false;

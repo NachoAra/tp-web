@@ -9,7 +9,6 @@ namespace negocio
         {
             accesoDatos = new AccesoDatos();
         }
-
         public bool ExisteDNI(string DNI)
         {
             try

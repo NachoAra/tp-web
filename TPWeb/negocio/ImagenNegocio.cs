@@ -13,7 +13,6 @@ namespace negocio
     {
         public List<Imagen> listarPorId(int id)
         {
-
             List<Imagen> lista = new List<Imagen>();
             AccesoDatos accesoDatos = new AccesoDatos();
 
@@ -32,7 +31,6 @@ namespace negocio
 
                     lista.Add(imagen);
                 }
-
                 return lista;
             }
             catch (Exception e)
@@ -44,7 +42,5 @@ namespace negocio
                 accesoDatos.cerrarConexion();
             }
         }
-
-
     }
 }
