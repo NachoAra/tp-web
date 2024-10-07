@@ -18,7 +18,7 @@ namespace tp_web
                 List<Articulo> todosLosArticulos = articuloNegocio.listar();
 
                 // no + de 3 arts
-                List<Articulo> articulosLimitados = todosLosArticulos.Take(3).ToList();
+                List<Articulo> articulosLimitados = todosLosArticulos.Take(todosLosArticulos.Count()).ToList();
 
                 //cargar img
                 ImagenNegocio imagenNegocio = new ImagenNegocio();

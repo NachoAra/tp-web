@@ -16,6 +16,7 @@
         .articulos-grid {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 20px;
         }
         .articulo-card {
@@ -24,6 +25,9 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 5px 5px 10px #888888;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .articulo-imagen {
             width: 100%;
